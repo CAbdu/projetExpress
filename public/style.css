@@ -272,3 +272,21 @@ nav-icon, main nav-link {
 .card:nth-child(4) .card_infos .info {
   background: rgb(238, 195, 4);
 }
+
+/* footer */
+
+.footer {
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: #c5c5c6 1px solid;
+  width: 100%;
+
+}
+
+.footer-text {
+  display: flex;
+  padding-bottom: 15px;
+  justify-content: center;
+  font-size: 12px;
+  
+}

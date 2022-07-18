@@ -1,27 +1,4 @@
-<nav>
-  <a href="#" class="nav-icon" aria-label="homepage" aria-current="page">
-    <img class="img-icon" src="../ressources/coupe.webp" alt="coupe">
-    <span class="main_title">Mon Tournoi</span>
-  </a>
-  <div class="main nav-links ">
-    <a href="#">Les Jeux</a>
-    <a href="#">Les Tournois</a>
-    <a href="#">Cherche une Team</a>
-  </div>
-
-
-  <div class="dropdown">
-    <button class="dropbtn"> <img src="../ressources/user.webp" height="25" width="20" />
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Connection</a>
-      <a href="#">Inscription</a>
-    </div>
-  </div>
-
-
-</nav>
-
+{{> header}}
 
 <div class="cards">
   <div class="card">
@@ -123,8 +100,8 @@
       </ul>
 
       <h6 class="genre">Combat</h6>
-      <h4 class="title" Super Smash Bros Ultimate</h4>
-        <p>résumé du truc ou palmarès</p>
+      <h4 class="title"> Super Smash Bros Ultimate</h4>
+      <p>résumé du truc ou palmarès</p>
     </div>
 
     <div class="card_infos">
@@ -144,3 +121,7 @@
     </div>
   </div>
 </div>
+
+
+
+{{>footer}}
